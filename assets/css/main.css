@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "FaRegular";
+  src: url("../fonts/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FaBrands";
+  src: url("../fonts/fa-brands-400.woff2") format("woff2");
+}
+
+body {
+  font-family: "FaRegular", "Roboto", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.65rem;
+}
+
+p {
+  color: grey;
+}
+
+.header {
+  font-family: "FaBrands", "Roboto", sans-serif;
+  font-size: 3.25rem;
+  font-style: normal;
+  line-height: 4.063rem;
+  font-weight: 700;
+}
+
+.main-background {
+  background: url("../images/bg01.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.main-background:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0);
+  opacity: 0.9;
+  z-index: -1;
+}
+
+input#inputEmail {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 0.188rem white solid;
+}
+
+.btn-signup {
+  background-color: #1cb495;
+  font-weight: 600;
+}
+
+.success-message {
+  color: rgb(85, 229, 199);
+  display: none;
+}
+
+.hv-100 {
+  height: 100vh;
+}
+
+.h-85 {
+  height: 85vh;
+}
+
+a.html5-link {
+  color: grey;
+}
+
+a.html5-link:hover {
+  color: white;
+}
+
+.footer {
+  opacity: 0.5;
+}
+
+.social-contact-link {
+  font-size: 1.313rem;
+  padding-right: 0.938rem;
+  color: grey;
+  text-decoration: none;
+}
+
+.social-contact-link:hover {
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+}
