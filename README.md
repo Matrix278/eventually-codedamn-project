@@ -1,7 +1,6 @@
 # Codedamn - Eventually - Stunning HTML5 Landing Page
 
-Eventually - Stunning HTML5 Landing Page
-Real one - https://html5up.net/eventually
+Real one template - https://html5up.net/eventually
 
 ![Design for the project](https://raw.githubusercontent.com/codedamn-projects/eventually-stunning-html5-landing-page/master/assets/desktop-design-non-fs.jpg)
 
